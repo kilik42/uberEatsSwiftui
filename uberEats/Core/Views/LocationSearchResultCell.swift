@@ -17,7 +17,7 @@ struct LocationSearchResultCell: View {
                 .accentColor(.white)
                 .frame(width: 40, height: 40)
             
-            VStack(alignment:.leading){
+            VStack(alignment:.leading, spacing: 4){
                 Text("StarbucksCoffee")
                     .font(.body)
                 Text("123 Main St., Cupertino CA")
@@ -27,6 +27,7 @@ struct LocationSearchResultCell: View {
               Divider()
             }
             .padding(.leading, 8)
+            .padding(.vertical, 8)
         }
         .padding(.leading)
     }
