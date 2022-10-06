@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		10DD11C828EF242300826B72 /* uberEatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DD11C728EF242300826B72 /* uberEatsApp.swift */; };
-		10DD11CA28EF242300826B72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DD11C928EF242300826B72 /* ContentView.swift */; };
 		10DD11CC28EF242400826B72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DD11CB28EF242400826B72 /* Assets.xcassets */; };
 		10DD11D028EF242400826B72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DD11CF28EF242400826B72 /* Preview Assets.xcassets */; };
+		10DD11DE28EF25A000826B72 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DD11DD28EF25A000826B72 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		10DD11C428EF242300826B72 /* uberEats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uberEats.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DD11C728EF242300826B72 /* uberEatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uberEatsApp.swift; sourceTree = "<group>"; };
-		10DD11C928EF242300826B72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		10DD11CB28EF242400826B72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10DD11CD28EF242400826B72 /* uberEats.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = uberEats.entitlements; sourceTree = "<group>"; };
 		10DD11CF28EF242400826B72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		10DD11DD28EF25A000826B72 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +52,11 @@
 		10DD11C628EF242300826B72 /* uberEats */ = {
 			isa = PBXGroup;
 			children = (
-				10DD11C728EF242300826B72 /* uberEatsApp.swift */,
-				10DD11C928EF242300826B72 /* ContentView.swift */,
+				10DD11DA28EF257300826B72 /* Models */,
+				10DD11D928EF256C00826B72 /* Managers */,
+				10DD11D828EF256000826B72 /* Extensions */,
+				10DD11D728EF255800826B72 /* Core */,
+				10DD11D628EF253C00826B72 /* App */,
 				10DD11CB28EF242400826B72 /* Assets.xcassets */,
 				10DD11CD28EF242400826B72 /* uberEats.entitlements */,
 				10DD11CE28EF242400826B72 /* Preview Content */,
@@ -67,6 +70,59 @@
 				10DD11CF28EF242400826B72 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		10DD11D628EF253C00826B72 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				10DD11C728EF242300826B72 /* uberEatsApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		10DD11D728EF255800826B72 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				10DD11DC28EF259200826B72 /* Views */,
+				10DD11DB28EF258900826B72 /* ViewModels */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		10DD11D828EF256000826B72 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		10DD11D928EF256C00826B72 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		10DD11DA28EF257300826B72 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		10DD11DB28EF258900826B72 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		10DD11DC28EF259200826B72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				10DD11DD28EF25A000826B72 /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +195,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10DD11CA28EF242300826B72 /* ContentView.swift in Sources */,
 				10DD11C828EF242300826B72 /* uberEatsApp.swift in Sources */,
+				10DD11DE28EF25A000826B72 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
