@@ -13,6 +13,7 @@
 		10DD11DE28EF25A000826B72 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DD11DD28EF25A000826B72 /* HomeView.swift */; };
 		10DD11E028EF286F00826B72 /* UberMapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DD11DF28EF286F00826B72 /* UberMapViewRepresentable.swift */; };
 		10DD11E228EF2D5300826B72 /* LocationSearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DD11E128EF2D5300826B72 /* LocationSearchResultCell.swift */; };
+		10DD11E628EF34E200826B72 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DD11E528EF34E200826B72 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		10DD11DD28EF25A000826B72 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		10DD11DF28EF286F00826B72 /* UberMapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberMapViewRepresentable.swift; sourceTree = "<group>"; };
 		10DD11E128EF2D5300826B72 /* LocationSearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchResultCell.swift; sourceTree = "<group>"; };
+		10DD11E528EF34E200826B72 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		10DD11D928EF256C00826B72 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				10DD11E528EF34E200826B72 /* LocationManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			files = (
 				10DD11C828EF242300826B72 /* uberEatsApp.swift in Sources */,
 				10DD11E028EF286F00826B72 /* UberMapViewRepresentable.swift in Sources */,
+				10DD11E628EF34E200826B72 /* LocationManager.swift in Sources */,
 				10DD11DE28EF25A000826B72 /* HomeView.swift in Sources */,
 				10DD11E228EF2D5300826B72 /* LocationSearchResultCell.swift in Sources */,
 			);
