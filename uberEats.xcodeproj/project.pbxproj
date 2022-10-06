@@ -11,6 +11,8 @@
 		10DD11CC28EF242400826B72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DD11CB28EF242400826B72 /* Assets.xcassets */; };
 		10DD11D028EF242400826B72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DD11CF28EF242400826B72 /* Preview Assets.xcassets */; };
 		10DD11DE28EF25A000826B72 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DD11DD28EF25A000826B72 /* HomeView.swift */; };
+		10DD11E028EF286F00826B72 /* UberMapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DD11DF28EF286F00826B72 /* UberMapViewRepresentable.swift */; };
+		10DD11E228EF2D5300826B72 /* LocationSearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DD11E128EF2D5300826B72 /* LocationSearchResultCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		10DD11CD28EF242400826B72 /* uberEats.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = uberEats.entitlements; sourceTree = "<group>"; };
 		10DD11CF28EF242400826B72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		10DD11DD28EF25A000826B72 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		10DD11DF28EF286F00826B72 /* UberMapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberMapViewRepresentable.swift; sourceTree = "<group>"; };
+		10DD11E128EF2D5300826B72 /* LocationSearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchResultCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				10DD11DD28EF25A000826B72 /* HomeView.swift */,
+				10DD11DF28EF286F00826B72 /* UberMapViewRepresentable.swift */,
+				10DD11E128EF2D5300826B72 /* LocationSearchResultCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,7 +202,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				10DD11C828EF242300826B72 /* uberEatsApp.swift in Sources */,
+				10DD11E028EF286F00826B72 /* UberMapViewRepresentable.swift in Sources */,
 				10DD11DE28EF25A000826B72 /* HomeView.swift in Sources */,
+				10DD11E228EF2D5300826B72 /* LocationSearchResultCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
